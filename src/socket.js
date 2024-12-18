@@ -5,5 +5,5 @@ export const initSocket = () => {
     transports: ["websocket"],
     upgrade: false,
   };
-  return io(import.meta.env.VITE_BACKEND_URL, options);
+  return io("/", options);
 };
