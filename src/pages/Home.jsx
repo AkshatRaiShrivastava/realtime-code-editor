@@ -35,7 +35,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="bg-[#232432] lg:w-1/2 md:w-1/2 mt-48 rounded-xl p-3 mx-auto flex items-center justify-center items-center flex flex-col">
+      <div className="bg-[#232432] lg:w-1/3 sm:w-1/2 md:w-1/3 w-full  mt-48 rounded-xl p-3 mx-auto flex items-center justify-center items-center flex flex-col">
         <div className="flex w-full px-10 flex-row items-center justify-between">
           <img src={logo} className="" width={90} />
           <h1 className="">Realtime collaboration</h1>

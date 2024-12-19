@@ -11,7 +11,7 @@ function App() {
       <Toaster />
       <BrowserRouter>
         <div className="w-full h-full fixed overflow-x-hidden text-neutral-300 antialiased bg-[#101010]">
-          <div className="container ">
+          <div className="container px-3">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/editor/:roomId" element={<EditorPage />} />
